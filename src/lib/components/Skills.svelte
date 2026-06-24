@@ -29,15 +29,12 @@
 </script>
 
 <!-- 1. O div maior ocupa a tela toda (w-full) com o recuo nas bordas (px-6 md:px-12) -->
+
 <div
 	class="w-full px-6 md:px-12 rounded-4xl border border-slate-800 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 py-10 bg-slate-950/50"
 >
-	<!-- Categoria 1: Linguagens (Um bloco invisível, separado apenas pelo espaço) -->
 	<div class="flex flex-col">
-		<!-- Título da Categoria -->
 		<h4 class="text-lg font-bold text-cyan-400 mb-4">{textos_skills[idioma].linguagens}</h4>
-
-		<!-- Itens da Categoria -->
 		<div class="flex flex-wrap gap-2.5">
 			{#each minhas_skills.linguagens as langs}
 				<span
@@ -49,7 +46,6 @@
 		</div>
 	</div>
 
-	<!-- Categoria 2: Persistência -->
 	<div class="flex flex-col">
 		<!-- Título da Categoria -->
 		<h4

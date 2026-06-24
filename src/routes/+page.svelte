@@ -1,5 +1,6 @@
 <script>
 	import Hero from '$lib/components/Hero.svelte';
+	import Projects from '$lib/components/Projects.svelte';
 	import AboutMe from '../lib/components/AboutMe.svelte';
 	import Name from '../lib/components/Name.svelte';
 	import Skills from '../lib/components/Skills.svelte';
@@ -35,5 +36,8 @@
 	</div>
 	<div class="mt-4">
 		<Skills {idioma} />
+	</div>
+	<div class="mt-4">
+		<Projects {idioma} />
 	</div>
 </main>
