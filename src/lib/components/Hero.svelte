@@ -39,7 +39,7 @@
 	</div>
 
 	<!-- 3. A div dos botões agora vai ser empurrada automaticamente para o final de tudo -->
-	<div class="flex flex-wrap gap-4 mt-8">
+	<div class="flex flex-wrap gap-4 mt-2">
 		<a
 			href="https://github.com/alvarolucio2007"
 			target="_blank"
@@ -61,7 +61,7 @@
 		<!-- Botão Terciário sutil: Contato -->
 		<a
 			href="#contato"
-			class="px-5 py-2.5 bg-transparent hover:bg-slate-900 text-slate-400 hover:text-slate-200 font-medium rounded-xl transition-all duration-200 text-sm"
+			class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold rounded-xl border border-slate-800 transition-all duration-200 text-sm"
 		>
 			{textos_hero[idioma].cta_contato}
 		</a>

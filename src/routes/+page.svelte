@@ -2,6 +2,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import AboutMe from '../lib/components/AboutMe.svelte';
 	import Name from '../lib/components/Name.svelte';
+	import Skills from '../lib/components/Skills.svelte';
 	let idioma = $state('pt');
 
 	// Array de suporte para renderizar os botões dinamicamente
@@ -26,10 +27,13 @@
 		{/each}
 	</div>
 	<Name {idioma} />
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-2">
 		<!-- Div da Esquerda (Hero) -->
 		<Hero {idioma} />
 		<!-- Div da Direita (About Me) -->
 		<AboutMe {idioma} />
+	</div>
+	<div class="mt-4">
+		<Skills {idioma} />
 	</div>
 </main>
