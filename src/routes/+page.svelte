@@ -1,5 +1,7 @@
 <script>
+	import Hero from '$lib/components/Hero.svelte';
 	import AboutMe from '../lib/components/AboutMe.svelte';
+	import Name from '../lib/components/Name.svelte';
 	let idioma = $state('pt');
 
 	// Array de suporte para renderizar os botões dinamicamente
@@ -11,7 +13,7 @@
 </script>
 
 <main class="min-h-screen bg-slate-900 text-slate-100 font-sans p-6">
-	<div class="max-w-4xl mx-auto flex justify-end gap-3 mb-8">
+	<div class="max-w-5xl ml-auto flex justify-end gap-3 mb-8">
 		{#each botoesIdioma as botao}
 			<button
 				onclick={() => (idioma = botao.id)}
@@ -23,5 +25,11 @@
 			</button>
 		{/each}
 	</div>
-	<AboutMe {idioma} />
+	<Name {idioma} />
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+		<!-- Div da Esquerda (Hero) -->
+		<Hero {idioma} />
+		<!-- Div da Direita (About Me) -->
+		<AboutMe {idioma} />
+	</div>
 </main>

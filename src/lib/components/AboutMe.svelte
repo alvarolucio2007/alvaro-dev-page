@@ -1,41 +1,30 @@
-<script>
-	// Definindo os parâmetros de entrada (Props) no Svelte 5
+<script lang="ts">
 	let { idioma = 'pt' } = $props();
-	// Dicionário corrigido e limpo
-	const textos = {
+
+	const textos_about_me = {
 		pt: {
-			titulo: 'Olá, eu sou o Álvaro!',
-			subtitulo: 'Bem-vindo ao meu repertório pessoal.',
-			p1: 'Sou desenvolvedor focado em soluções de backend, arquitetura e performance.',
-			p2: 'Sinta-se livre para explorar meus links e projetos abaixo.',
-			github: 'GitHub pessoal ↗',
-			linkedin: 'LinkedIn profissional ↗'
+			titulo: 'Sobre Mim',
+			bio: 'Sou estudante de Engenharia de Software com uma profunda paixão pelo desenvolvimento backend. Meu dia a dia gira em torno de escrever código limpo e entender arquiteturas de sistemas. Além da minha especialização em Go, tenho familiaridade com ambientes Linux/Unix devido ao meu uso diário. Gosto de analisar problemas lógicos complexos e transformá-los em produtos performáticos.'
 		},
 		en: {
-			titulo: "Hi, I'm Álvaro!",
-			subtitulo: 'Welcome to my personal portfolio.',
-			p1: "I'm a developer focused on backend solutions, architecture, and performance.",
-			p2: 'Feel free to explore my links and projects below.',
-			github: 'Personal GitHub ↗',
-			linkedin: 'Professional Linkedin ↗'
+			titulo: 'About Me',
+			bio: 'I am a Software Engineering student with a deep passion for backend development. My day-to-day routine revolves around writing clean code and understanding system architectures. In addition to specializing in Go, I am comfortable working in Linux/Unix environments due to my daily use. I love analyzing complex logical problems and transforming them into high-performance products.'
 		},
 		de: {
-			titulo: 'Hallöchen, ich bin Álvaro!',
-			subtitulo: 'Willkommen bei meinem persönlichen Repertoire.',
-			p1: 'Ich bin ein Entwickler, mit Fokus auf Backend-Lösungen, Architektur und Leistung.',
-			p2: 'Fühl dich frei, meine Links und Projekte unten zu erkunden.',
-			github: 'Persönliches GitHub ↗',
-			linkedin: 'Professionelles Linkedin ↗'
+			titulo: 'Über mich',
+			bio: 'Ich bin Software-Engineering-Student mit einer tiefen Leidenschaft für die Backend-Entwicklung. Mein Alltag dreht sich um das Schreiben von sauberem Code und das Verstehen von Systemarchitekturen. Neben meiner Spezialisierung auf Go bewege ich mich aufgrund meiner täglichen Nutzung sicher in Linux/Unix-Umgebungen. Ich liebe es, komplexe logische Probleme zu analysieren und sie in performante Produkte zu verwandeln.'
 		}
 	};
 </script>
 
-<div class="max-w-2xl mx-auto border border-slate-800 bg-slate-950/50 p-8 rounded-2xl shadow-xl">
-	<h1 class="text-4xl font-black mb-2 text-indigo-400">{textos[idioma].titulo}</h1>
-	<p class="text-xl text-slate-400 mb-6">{textos[idioma].subtitulo}</p>
+<div class="max-w-4xl ml-auto border border-slate-800 bg-slate-950/50 p-8 rounded-4xl shadow-xl">
+	<!-- Título do Card separado do texto -->
+	<h3 class="text-2xl font-black mb-4 text-indigo-400">
+		{textos_about_me[idioma].titulo}
+	</h3>
 
-	<div class="space-y-4">
-		<p class="text-slate-300">{textos[idioma].p1}</p>
-		<p class="text-slate-300">{textos[idioma].p2}</p>
-	</div>
+	<!-- Texto da bio formatado corretamente para leitura -->
+	<p class="text-xl text-slate-200 leading-relaxed text-base font-normal">
+		{textos_about_me[idioma].bio}
+	</p>
 </div>
