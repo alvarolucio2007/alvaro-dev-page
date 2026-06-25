@@ -59,13 +59,13 @@
 						href={links_github[id_projeto]}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-xs text-slate-500 hover:text-cyan-400 transition-colors duration-200 font-medium whitespace-nowrap"
+						class="text-xs text-cyan-500 hover:text-cyan-300 transition-colors duration-200 font-medium whitespace-nowrap"
 					>
 						Ver projeto →
 					</a>
 				</div>
 
-				<p class="text-sm text-slate-300 px-3 py-4 mb-4 leading-relaxed">
+				<p class="text-s text-slate-300 px-3 py-4 mb-4 leading-relaxed">
 					{textos_projetos[idioma][id_projeto]}
 				</p>
 			</div>
@@ -73,7 +73,7 @@
 			<div class="flex flex-wrap gap-1.5 mt-auto gap-2">
 				{#each stack_projetos[id_projeto] as tech}
 					<span
-						class="px-2 py-0.5 text-xs bg-slate-900 border border-slate-700 rounded-md text-slate-400"
+						class="px-2 py-0.5 text-s bg-slate-900 border border-slate-700 rounded-md text-slate-400"
 					>
 						{tech}
 					</span>

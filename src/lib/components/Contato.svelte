@@ -21,7 +21,7 @@
 	class="w-full px-6 md:px-12 rounded-4xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 py-10 bg-slate-950/50"
 >
 	<div class="flex flex-col justify-center">
-		<h1 class="text-3xl font-black mb-2 text-cyan-400">{titulo_contato[idioma]}</h1>
+		<h1 class="text-3xl font-black mb-2 text-cyan-300">{titulo_contato[idioma]}</h1>
 		<h2 class="text-xl text-slate-300 leading-relaxed">{header_contato[idioma]}</h2>
 	</div>
 
@@ -35,11 +35,11 @@
 			>
 				<div class="flex items-center gap-3">
 					<span
-						class="text-sm font-semibold text-slate-200 group-hover:text-indigo-400 transition-colors"
+						class="text-m font-semibold text-slate-100 group-hover:text-indigo-400 transition-colors"
 					>
 						{contato.nome}
 					</span>
-					<span class="text-xs text-slate-500">
+					<span class="text-sm text-slate-300">
 						{contato.user}
 					</span>
 				</div>

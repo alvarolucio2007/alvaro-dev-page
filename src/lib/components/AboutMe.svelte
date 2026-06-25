@@ -24,7 +24,7 @@
 	</h3>
 
 	<!-- Texto da bio formatado corretamente para leitura -->
-	<p class="font-sans text-xl text-gray-300 leading-relaxed">
+	<p class="font-sans text-xl text-gray-200 leading-relaxed">
 		{textos_about_me[idioma].bio}
 	</p>
 </div>
