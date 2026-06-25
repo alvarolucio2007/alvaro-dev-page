@@ -43,5 +43,5 @@
 	<div class="mt-4">
 		<Projects {idioma} />
 	</div>
-	<div class="mt-4"><Contato {idioma} /></div>
+	<div class="mt-4" id="contato"><Contato {idioma} /></div>
 </main>
