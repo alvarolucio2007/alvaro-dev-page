@@ -31,7 +31,7 @@
 			link_shortener:
 				'URL-Shortener-Mikroservice mit Fokus auf niedrige Latenz, containerisiert mit Docker und optimiert für Cloud-Umgebungen.',
 			py_go_lib:
-				'Fullstack-Bibliothekssystem basierend auf streng typisierten RESTful APIs in Go, unter Verwendung do des Gin-Frameworks mit relationaler Persistenz in PostgreSQL.',
+				'Fullstack-Bibliothekssystem basierend auf streng typisierten RESTful APIs in Go, unter Verwendung des Gin-Frameworks mit relationaler Persistenz in PostgreSQL.',
 			sapiens_go:
 				'Hochleistungsfähiger Schulservice basierend auf gRPC- und RESTful-APIs, inklusive Leseoptimierung durch asynchronen Redis-Cache.'
 		}

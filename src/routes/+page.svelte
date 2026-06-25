@@ -1,4 +1,5 @@
 <script>
+	import Contato from '$lib/components/Contato.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import AboutMe from '../lib/components/AboutMe.svelte';
@@ -40,4 +41,5 @@
 	<div class="mt-4">
 		<Projects {idioma} />
 	</div>
+	<div class="mt-4"><Contato {idioma} /></div>
 </main>
