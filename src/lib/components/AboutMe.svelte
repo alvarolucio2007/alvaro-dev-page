@@ -4,7 +4,7 @@
 	const textos_about_me = {
 		pt: {
 			titulo: 'Sobre Mim',
-			bio: 'Sou estudante de Engenharia de Software com uma profunda paixão pelo desenvolvimento backend. Meu dia a dia gira em torno de escrever código limpo e entender arquiteturas de sistemas. Além da minha especialização em Go, tenho familiaridade com ambientes Linux/Unix devido ao meu uso diário. Gosto de analisar problemas lógicos complexos e transformá-los em produtos performáticos.'
+			bio: 'Sou estudante de Engenharia de Software com uma profunda paixão pelo desenvolvimento backend. Meu dia a dia gira em torno de escrever código limpo e entender arquiteturas de sistemas. Além da minha especialização em Go, tenho familiaridade com ambientes Linux/Unix devido ao meu uso diário. Gosto de quebrar a cabeça com problemas lógicos e transformá-los em produtos performáticos.'
 		},
 		en: {
 			titulo: 'About Me',
@@ -24,7 +24,7 @@
 	</h3>
 
 	<!-- Texto da bio formatado corretamente para leitura -->
-	<p class="text-xl text-slate-200 leading-relaxed text-base font-normal">
+	<p class="font-sans text-xl text-gray-300 leading-relaxed">
 		{textos_about_me[idioma].bio}
 	</p>
 </div>

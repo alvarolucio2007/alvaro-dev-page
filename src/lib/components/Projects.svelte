@@ -52,7 +52,7 @@
 		>
 			<div>
 				<div class="flex justify-between items-center mb-3">
-					<h4 class="text-lg font-bold text-cyan-400">
+					<h4 class="text-xl font-bold text-cyan-400">
 						{titulos_projetos[id_projeto]}
 					</h4>
 					<a
@@ -65,15 +65,15 @@
 					</a>
 				</div>
 
-				<p class="text-sm text-slate-400 mb-4 leading-relaxed">
+				<p class="text-sm text-slate-300 px-3 py-4 mb-4 leading-relaxed">
 					{textos_projetos[idioma][id_projeto]}
 				</p>
 			</div>
 
-			<div class="flex flex-wrap gap-1.5 mt-auto">
+			<div class="flex flex-wrap gap-1.5 mt-auto gap-2">
 				{#each stack_projetos[id_projeto] as tech}
 					<span
-						class="px-2 py-0.5 text-xs bg-slate-900 border border-slate-800 rounded-md text-slate-400"
+						class="px-2 py-0.5 text-xs bg-slate-900 border border-slate-700 rounded-md text-slate-400"
 					>
 						{tech}
 					</span>

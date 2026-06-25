@@ -1,9 +1,9 @@
 <script>
 	let { idioma = 'pt' } = $props();
 	const textos_nome = {
-		pt: { titulo: 'Olá, eu sou o Álvaro!' },
-		en: { titulo: "Hi, I'm Álvaro!" },
-		de: { titulo: 'Hallo, mein Name ist Álvaro!' }
+		pt: { titulo: '/home/Álvaro' },
+		en: { titulo: 'hi, álvaro here.' },
+		de: { titulo: 'hallöchen, álvaro hier.' }
 	};
 
 	let textoExibido = $state('');

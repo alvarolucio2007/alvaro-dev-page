@@ -18,7 +18,7 @@
 <main
 	class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100 font-sans p-6"
 >
-	<div class="max-w-5xl ml-auto flex justify-end gap-3 mb-8">
+	<div class="max-w-5xl ml-auto flex justify-middle gap-3 mb-4">
 		{#each botoesIdioma as botao}
 			<button
 				onclick={() => (idioma = botao.id)}
@@ -30,8 +30,7 @@
 			</button>
 		{/each}
 	</div>
-	<Name {idioma} />
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-auto">
 		<!-- Div da Esquerda (Hero) -->
 		<Hero {idioma} />
 		<!-- Div da Direita (About Me) -->
@@ -43,5 +42,5 @@
 	<div class="mt-4">
 		<Projects {idioma} />
 	</div>
-	<div class="mt-4" id="contato"><Contato {idioma} /></div>
+	<div class="mt-4"><Contato {idioma} /></div>
 </main>

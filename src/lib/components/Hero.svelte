@@ -2,25 +2,25 @@
 	let { idioma = 'pt' } = $props();
 	const textos_hero = {
 		pt: {
-			motto: 'Construindo arquiteturas de backend resilientes e escaláveis.',
+			motto: 'Engenheiro de software de 18 anos do Brasil 🇧🇷',
 			resumo:
-				'Desenvolvedor focado em Go, bancos de dados relacionais e não relacionais. Transformando ideias em produtos concretos e performáticos.',
+				'Desenvolvedor backend focado em Go, bancos de dados relacionais e não relacionais. Transformo ideias em produtos concretos e performáticos.',
 			cta_github: 'Visite meu GitHub',
 			cta_curriculo: 'Ver Currículo',
 			cta_contato: 'Contato'
 		},
 		en: {
-			motto: 'Building resilient and scalable backend architectures.',
+			motto: '18 year old Software Engineer from Brazil 🇧🇷',
 			resumo:
-				'Developer focused on Go, relational and non-relational databases. Transforming ideas into concrete and performant products.',
+				'Backend developer focused on Go, relational and non-relational databases. I transform ideas into concrete and performant products.',
 			cta_github: 'Visit my GitHub',
 			cta_curriculo: 'See my Resume',
 			cta_contato: 'Contact'
 		},
 		de: {
-			motto: 'Entwicklung von belastbaren und skalierbaren Backend-Architekturen.',
+			motto: '18-jähriger alt Softwareingeniur aus Brasilien 🇧🇷',
 			resumo:
-				'Entwickler mit Fokus auf Go, relationale und nicht-relationale Datenbanken. Verwandlung von Ideen in greifbare und leistungsstarke Produkten',
+				'Backend-Entwickler mit Fokus auf Go, relationale und nicht-relationale Datenbanken. Ich verwandle Ideen in greifbare und leistungsstarke Produkten',
 			cta_github: 'GitHub besuchen',
 			cta_curriculo: 'Lebenslauf ansehen',
 			cta_contato: 'Kontakt aufnehmen'
@@ -53,17 +53,9 @@
 		<a
 			href="https://drive.proton.me/urls/1R9JRYCA2W#0Sl28poz08zx"
 			target="_blank"
-			class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold rounded-xl border border-slate-800 transition-all duration-200 text-sm"
+			class="px-5 py-2.5 bg-transparent hover:bg-cyan-950/30 text-cyan-400 font-bold rounded-xl border border-cyan-700/50 transition-all duration-200 text-sm"
 		>
 			{textos_hero[idioma].cta_curriculo}
-		</a>
-
-		<!-- Botão Terciário sutil: Contato -->
-		<a
-			href="#contato"
-			class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold rounded-xl border border-slate-800 transition-all duration-200 text-sm"
-		>
-			{textos_hero[idioma].cta_contato}
 		</a>
 	</div>
 </div>
