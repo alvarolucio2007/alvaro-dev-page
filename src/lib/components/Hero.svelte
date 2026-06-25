@@ -51,7 +51,7 @@
 
 		<!-- Botão Secundário: Currículo -->
 		<a
-			href="../../../static/CurriculoAlvaroLucio.pdf"
+			href="/CurriculoAlvaroLucio.pdf"
 			target="_blank"
 			class="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 font-bold rounded-xl border border-slate-800 transition-all duration-200 text-sm"
 		>
