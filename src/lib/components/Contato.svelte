@@ -22,7 +22,7 @@
 >
 	<div class="flex flex-col justify-center">
 		<h1 class="text-3xl font-black mb-2 text-cyan-400">{titulo_contato[idioma]}</h1>
-		<h2 class="text-xl text-slate-400 leading-relaxed">{header_contato[idioma]}</h2>
+		<h2 class="text-xl text-slate-300 leading-relaxed">{header_contato[idioma]}</h2>
 	</div>
 
 	<div class="flex flex-col justify-center gap-4">
@@ -35,7 +35,7 @@
 			>
 				<div class="flex items-center gap-3">
 					<span
-						class="text-sm font-semibold text-slate-200 group-hover:text-cyan-400 transition-colors"
+						class="text-sm font-semibold text-slate-200 group-hover:text-indigo-400 transition-colors"
 					>
 						{contato.nome}
 					</span>

@@ -15,7 +15,9 @@
 	];
 </script>
 
-<main class="min-h-screen bg-slate-900 text-slate-100 font-sans p-6">
+<main
+	class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-100 font-sans p-6"
+>
 	<div class="max-w-5xl ml-auto flex justify-end gap-3 mb-8">
 		{#each botoesIdioma as botao}
 			<button

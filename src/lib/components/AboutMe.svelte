@@ -19,7 +19,7 @@
 
 <div class="max-w-4xl ml-auto border border-slate-800 bg-slate-950/50 p-8 rounded-4xl shadow-xl">
 	<!-- Título do Card separado do texto -->
-	<h3 class="text-2xl font-black mb-4 text-indigo-400">
+	<h3 class="text-2xl font-black mb-4 text-cyan-400">
 		{textos_about_me[idioma].titulo}
 	</h3>
 
