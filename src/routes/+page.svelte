@@ -3,7 +3,6 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import AboutMe from '../lib/components/AboutMe.svelte';
-	import Name from '../lib/components/Name.svelte';
 	import Skills from '../lib/components/Skills.svelte';
 	let idioma = $state('pt');
 
